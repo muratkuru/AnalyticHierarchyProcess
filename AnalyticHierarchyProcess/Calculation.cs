@@ -92,7 +92,7 @@ namespace AnalyticHierarchyProcess
                 {
                     sum += NormalizedMatrix[i, j];
                 }
-                PriorityVector[i] = sum / 3;
+                PriorityVector[i] = sum / n;
             }
         }
 
